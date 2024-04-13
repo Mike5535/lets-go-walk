@@ -1,0 +1,16 @@
+@import "@views/MainPage/mainPage.scss";
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fcfefc;
+}
+
+body,
+button {
+  margin: 0;
+}

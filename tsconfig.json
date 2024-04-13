@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"],
+        "@views/*":  ["src/views/*"],
+      },
+      "target": "es2017",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "commonjs",
+      "jsx": "react"
+    },
+    "exclude": ["node_modules"],
+}
